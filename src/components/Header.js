@@ -31,7 +31,7 @@ export default function Header({data}) {
                                 <Menu key={index}>
                                     <MenuHandler>
                                         <li>
-                                            <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent" aria-current="page">{item}</a>
+                                            <a className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent cursor-pointer" aria-current="page">{item}</a>
                                         </li>
                                     </MenuHandler>
                                     <MenuList className="grid grid-cols-5 gap-5">

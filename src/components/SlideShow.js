@@ -26,7 +26,7 @@ export default function SlideShow({posters}) {
                     key={poster.id}
                     src={"https://image.tmdb.org/t/p/original/"+poster.backdrop_path}
                     alt="image 1"
-                    className="w-full max-h-96 object-cover"
+                    className="w-full max-h-[500px] object-cover"
                 />
             ))
         }
